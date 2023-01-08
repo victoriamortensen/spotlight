@@ -18,7 +18,7 @@ function App() {
           {/* <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#About">About</Nav.Link> */}
           <Navbar.Text>
-            Version 0.02
+            Version 0.03
           </Navbar.Text>
         </Nav>
       </Navbar.Collapse>
@@ -26,17 +26,24 @@ function App() {
   </Navbar>
   <div className="profileHeader">
     <div>
-      <div >
+      <div className="header" >
         <p className='headerText'>Hi, I am Victoria Mortensen</p>
         <p className='subHeaderText'>Frontend / UX Design Engineer</p>
       </div>
-      <div className='headerContent'>
         <div className="profileLinks">
           <a target="_blank" rel="noreferrer noopener" href="https://github.com/victoriamortensen"><Icon.GitHub/></a>
           <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/victoriamortensen/"><Icon.Linkedin/></a>
-          <p> <a target="_blank" rel="noreferrer noopener" href = "mailto:victoria@glavindmortensen.com" >victoria@glavindmortensen.com</a></p>
+          <p className="email"> 
+              <a target="_blank" rel="noreferrer noopener" href = "mailto:victoria@glavindmortensen.com" >
+                victoria@glavindmortensen.com
+              </a>
+          </p>
+          <p className="icon">
+              <a target="_blank" rel="noreferrer noopener" href = "mailto:victoria@glavindmortensen.com" >
+                <Icon.Mail/>
+              </a>
+          </p>
         </div>
-      </div>
     </div>
     <div className='profileImage'>
       <Image src={Img} roundedCircle></Image>

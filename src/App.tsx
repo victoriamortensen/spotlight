@@ -34,7 +34,7 @@ function App() {
         <div className="profileLinks">
           <a target="_blank" rel="noreferrer noopener" href="https://github.com/victoriamortensen"><Icon.GitHub/></a>
           <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/victoriamortensen/"><Icon.Linkedin/></a>
-          <p> <a href = "mailto:victoria@glavindmortensen.com" >victoria@glavindmortensen.com</a></p>
+          <p> <a target="_blank" rel="noreferrer noopener" href = "mailto:victoria@glavindmortensen.com" >victoria@glavindmortensen.com</a></p>
         </div>
       </div>
     </div>

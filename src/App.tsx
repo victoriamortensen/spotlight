@@ -18,7 +18,7 @@ function App() {
           {/* <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#About">About</Nav.Link> */}
           <Navbar.Text>
-            Version 0.01
+            Version 0.02
           </Navbar.Text>
         </Nav>
       </Navbar.Collapse>
@@ -27,7 +27,7 @@ function App() {
   <div className="profileHeader">
     <div>
       <div >
-        <p className='headerText'>Hi, im Victoria Mortensen</p>
+        <p className='headerText'>Hi, I am Victoria Mortensen</p>
         <p className='subHeaderText'>Frontend / UX Design Engineer</p>
       </div>
       <div className='headerContent'>

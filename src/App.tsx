@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import Img from './images/profilephoto.jpg'
+import Img from './images/profile_2024.jpg'
 import gitImg from './images/octocat.svg'
 import linearImg from './images/linear.webp'
 import './App.css';

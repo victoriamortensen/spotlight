@@ -10,7 +10,7 @@ export default function NavBar() {
                     <a className="relative block px-3 py-2 transition hover:text-pink-600 no-underline" href="#showcase">Showcase</a>
                 </li>
                 <li>
-                    <a className="relative block px-3 py-2 transition hover:text-pink-600 no-underline" href='/Product-Manager-Engineering-Victoria-Mortensen.pdf' target='_blank' rel='noopener noreferrer' >Resume</a>
+                    <a className="relative block px-3 py-2 transition hover:text-pink-600 no-underline" href='/Product-Manager-Victoria-Mortensen.pdf' target='_blank' rel='noopener noreferrer' >Resume</a>
                 </li>
             </ul>
         </div>

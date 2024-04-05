@@ -7,6 +7,10 @@ import { Navbar, Container, Nav, Image} from 'react-bootstrap';
 import * as Icon from 'react-feather';
 import SkillsSection from './components/featureShowcase';
 import NavBar from './components/navBar';
+import ReactGA from 'react-ga4';
+
+const TRACKING_ID = "G-VKMVWSYY3D"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
